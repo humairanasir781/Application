@@ -8,7 +8,7 @@ import javax.swing.border.*;
 // ─────────────────────────────────────────────
 //  ABSTRACT BASE RESTAURANT
 // ─────────────────────────────────────────────
-abstract class Restaurant {
+abstract class Restaurant { 
 
     protected double totalAmount = 0;
     protected Map<String, Integer> itemQuantities = new LinkedHashMap<>();
